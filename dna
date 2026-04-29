@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DNE FESN</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6fb;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #3b3b8f, #6a6ad9);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* PLANOS */
+.plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: -40px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.price {
+    font-size: 28px;
+    color: #3b3b8f;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 20px;
+    background: #ff7a00;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e66a00;
+}
+
+/* BENEFÍCIOS */
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 15px;
+}
+
+.benefit {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Carteira Nacional do Estudante</h1>
+    <p>Garanta sua meia-entrada + benefícios exclusivos em todo Brasil</p>
+</div>
+
+<div class="container">
+
+<!-- PLANOS -->
+<div class="plans">
+
+<div class="card">
+    <h3>Digital</h3>
+    <p>+ Clube de Benefícios</p>
+    <div class="price">R$ 49,90</div>
+    <a class="btn" href="https://wa.me/5585994218206?text=Quero a carteira digital" target="_blank">
+        QUERO ESSA
+    </a>
+</div>
+
+<div class="card">
+    <div class="badge">MAIS VENDIDA</div>
+    <h3>Física + Digital</h3>
+    <p>Frete grátis</p>
+    <div class="price">R$ 65,90</div>
+    <a class="btn" href="https://wa.me/5585994218206?text=Quero a física + digital" target="_blank">
+        QUERO ESSA
+    </a>
+</div>
+
+<div class="card">
+    <h3>Completa</h3>
+    <p>Física + Digital + Clube</p>
+    <div class="price">R$ 76,90</div>
+    <a class="btn" href="https://wa.me/5585994218206?text=Quero a completa com benefícios" target="_blank">
+        QUERO ESSA
+    </a>
+</div>
+
+</div>
+
+<!-- BENEFÍCIOS -->
+<div class="section">
+<h2>Vantagens da sua DNE</h2>
+
+<div class="benefits">
+    <div class="benefit">🎬 Meia-entrada em cinemas</div>
+    <div class="benefit">🎭 Teatro e shows</div>
+    <div class="benefit">🚌 Descontos em transporte</div>
+    <div class="benefit">📚 Livrarias e cursos</div>
+</div>
+
+</div>
+
+<!-- COMO FUNCIONA -->
+<div class="section">
+<h2>Como funciona</h2>
+
+<div class="benefits">
+    <div class="benefit">1️⃣ Cadastro rápido</div>
+    <div class="benefit">2️⃣ Envio de documentos</div>
+    <div class="benefit">3️⃣ Pagamento online</div>
+    <div class="benefit">4️⃣ Receba sua carteira</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/5585994218206?text=Olá! Quero mais informações sobre a DNE" target="_blank">
+💬
+</a>
+
+</body>
+</html>
